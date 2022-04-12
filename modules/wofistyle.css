@@ -1,25 +1,21 @@
 window {
 margin: 0px;
-border: 2px solid #414868;
-border-radius: 5px;
-background-color: #24283b;
+border-radius: 15px;
+background-color: #383C4A;
 font-family: monospace;
 font-size: 12px;
 }
 
-
-
-
 #inner-box {
 margin: 5px;
 border: none;
-background-color: #24283b;
+background-color: #383C4A;
 }
 
 #outer-box {
 margin: 5px;
 border: none;
-background-color: #24283b;
+background-color: #383C4A;
 }
 
 #scroll {
@@ -30,16 +26,16 @@ border: none;
 #text {
 margin: 5px;
 border: none;
-color: #c0caf5;
+color: white;
 } 
 
 #entry:selected {
-	background-color: #414868;
+	background-color: #5291e2;
 	font-weight: normal;
 }
 
 #text:selected {
-	background-color: #414868;
+	background-color: #5291e2;
 	font-weight: normal;
 }
 
@@ -47,8 +43,10 @@ color: #c0caf5;
 width:0px;
 height: 0px;
 margin: 0px;
+border: none;
 color: #c0caf5;
-background-color: #24283b;
+background-color: #383C4A;
+
 }
 
 #input image {
