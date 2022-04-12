@@ -10,10 +10,10 @@ case $ans in
     supergfxctl -m compute
     ;;
   Hybrid)
-    supergfxctl -m hybrid
+    supergfxctl -m hybrid && swaynag -t warning -m 'Must logout to complete graphics change' -b 'yes, exit sway' 'swaymsg exit'
     ;;
   Dedicated)
-    supergfxctl -m dedicated
+    supergfxctl -m dedicated  && swaynag -t warning -m 'Must logout to complete graphics change' -b 'yes, exit sway' 'swaymsg exit'
     ;;
   VFIO)
     supergfxctl -m vfio
