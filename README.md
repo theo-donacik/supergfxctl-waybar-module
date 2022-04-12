@@ -1,4 +1,4 @@
-# supergfxctl-waybar
+# supergfxctl-waybar-module
 
 This is an [asusctl-gex](https://gitlab.com/asus-linux/asusctl-gex)-like app for waybar.
 
