@@ -1,7 +1,7 @@
 "custom/gfx": {
     "format": "{}",
     "interval": 3,
-    "return-type": "json"
+    "return-type": "json",
     "exec": "bash $HOME/.config/waybar/modules/gfx.sh",
     "on-click": "bash $HOME/.config/waybar/modules/gfxmenu.sh"
 }
