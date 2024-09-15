@@ -16,7 +16,7 @@ A [waybar](https://github.com/Alexays/Waybar) module that uses [supergfxctl](htt
 
 ### Prerequisites
 
-- [Waybar](https://github.com/Alexays/Waybar)
+- [Waybar](https://github.com/Alexays/Waybar) >= 0.10.4
 - [supergfxctl](https://gitlab.com/asus-linux/supergfxctl)
 
 ### Configure
