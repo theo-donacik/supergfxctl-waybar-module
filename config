@@ -1,7 +1,12 @@
-"custom/gfx": {
-  "format": "{}",
-  "interval": 5,
-  "return-type": "json",
-  "exec": "bash $HOME/.config/waybar/modules/gfx.sh",
-  "on-click": "bash $HOME/.config/waybar/modules/gfxmenu.sh"
+"custom/supergfx": {
+      "format": "{}",
+      "return-type": "json",
+      "interval": 5,
+      "exec": "/path/to/your/modules/gpustate.sh",
+      "menu": "on-click",
+		  "menu-file": "/path/to/your/gfx_menu.xml",
+      "menu-actions": {
+			  "Integrated": "supergfxctl -m Integrated",
+			  "Hybrid": "supergfxctl -m Hybrid",
+		  }
 }
