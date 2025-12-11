@@ -4,7 +4,7 @@ This is an [supergfxctl-gex](https://gitlab.com/asus-linux/supergfxctl-gex)-like
 
 ## Description
 
-A [waybar](https://github.com/Alexays/Waybar) module that uses [supergfxctl](https://gitlab.com/asus-linux/supergfxctl) for graphics swithcing on ASUS laptops with linux and s dedicated graphics card.
+A [waybar](https://github.com/Alexays/Waybar) module that uses [supergfxctl](https://gitlab.com/asus-linux/supergfxctl) for graphics swithcing on ASUS laptops with linux and a dedicated graphics card.
 
 ### Features
 
