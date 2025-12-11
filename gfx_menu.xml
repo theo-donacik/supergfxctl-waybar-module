@@ -11,5 +11,10 @@
         <property name="label">Hybrid</property>
       </object>
     </child>
+	<child>
+      <object class="GtkMenuItem" id="AsusMuxDgpu">
+        <property name="label">AsusMuxDgpu</property>
+      </object>
+    </child>
   </object>
 </interface>

@@ -8,5 +8,6 @@
       "menu-actions": {
 			  "Integrated": "supergfxctl -m Integrated",
 			  "Hybrid": "supergfxctl -m Hybrid",
+			  "AsusMuxDgpu": "supergfxctl -m AsusMuxDgpu"
 		  }
 }
